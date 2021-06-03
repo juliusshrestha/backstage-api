@@ -70,7 +70,7 @@ catalog:
 
     # Backstage example APIs
     - type: url
-      target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all-apis.yaml
+      target: https://github.com/juliusshrestha/creditcardvalidator/blob/master/all-apis.yaml
 
     # Backstage example resources
     - type: url

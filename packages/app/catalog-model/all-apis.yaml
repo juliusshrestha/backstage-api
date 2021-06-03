@@ -5,4 +5,4 @@ metadata:
   description: A collection of all Backstage example APIs
 spec:
   targets:
-    - ./all-api/backstage-demo.yaml
+    - ./apis/backstage-demo.yaml
