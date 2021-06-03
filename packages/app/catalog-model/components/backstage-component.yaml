@@ -1,18 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: credicard-validator
-  description: A credicard validation application.
-  links: 
+  name: credicard-validation
+  # This is an extra long description
+  description: An apllication that validates creditcard.
+  links:
     - url: https://github.com/juliusshrestha/creditcardvalidator
-      title: Github Repo
+      title: GitHub Repo
       icon: github
-  annotation:
-    circleci.com/project-slug: github/juliusshrestha/creditcardvalidator
-
 spec:
   type: service
-  owner: juliusshrestha29@gmail.com
   lifecycle: experimental
-   providesApis:
+  owner: julius-shrestha
+  providesApis:
     - backstage-demo
+    
