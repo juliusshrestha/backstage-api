@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: backstage-demo
+  description: Demo for api in backstage
+  tags:
+    - backstage
+    - rest
+  annotations:
+
+spec:
+  type: openapi
+  lifecycle: production
+  owner: terakoya
+  definition:
+    $text: https://github.com/juliusshrestha/creditcardvalidator/blob/master/juliusshrestha-backstage-1.0.0-resolved.yaml
