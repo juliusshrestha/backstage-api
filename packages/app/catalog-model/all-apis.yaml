@@ -4,5 +4,5 @@ metadata:
   name: backstage-example-apis
   description: A collection of all Backstage example APIs
 spec:
-  targets:
+  target:
     - ./apis/backstage-demo-api.yaml
